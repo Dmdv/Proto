@@ -1,0 +1,259 @@
+.game_clear {
+	clear: both;
+	height: 0;
+}
+#gameView {
+  width: 100%;
+  border-spacing: 0;
+}
+
+#gameViewLeft {
+padding-top:5px;
+vertical-align:top;
+width: 660px;
+}
+
+#gameViewRight {
+padding-left:10px;
+padding-top:5px;
+vertical-align:top;
+}
+
+
+#gameViewStats {
+	font-size: 10px;
+	color:#808080;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	background: #f2f2f2;
+}
+.game_view_stat {
+  float: left; padding-right: 15px;
+}
+
+
+#gameViewBox {
+	width: 660px;
+  border: 1px solid #ccc;
+  border-top: 5px solid #000;	
+}
+
+#gameViewDesc {
+  
+}
+
+#gameViewPlayer {
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  background: url(../images/menu_user.gif) repeat-x left top;
+}
+
+#gameViewInstruction,
+#gameViewCredit {
+  margin: 10px;
+ 
+}
+#gameViewInstruction h3,
+#gameViewCredit h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+#gameViewTools {
+	vertical-align:middle;
+	padding: 5px;
+}
+.game_view_tool {
+  float: left;
+  padding: 5px;
+  padding-left: 15px;
+  vertical-align:middle;
+}
+#game_rating {
+  paddingx: 10px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#gameViewList {
+  border: 1px solid #ccc;
+  border-top: 5px solid #000; 
+}
+#gameViewListHeader {
+  padding: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  background: #f2f2f2 url(../images/header.gif) repeat-x left top;
+}
+#gameViewListEntries {
+	
+}
+
+#gameFeaturedList {
+  border-top: 5px solid #000; 
+}
+
+.game_view_list_entry {
+padding: 5px;
+border-bottom: 1px solid #ddd;
+}
+.game_view_list_entry:hover {
+background: #f2f2f2;
+}
+.game_view_list_photo img {
+  border: 1px solid #eee;
+}
+.game_view_list_photo:hover img{
+  border: 1px solid #ccc;
+}
+.game_view_list_entry_title {
+  font-weight: bold;
+}
+
+
+.game_profile_entry {
+padding: 10px;
+border-top: 1px solid #ddd;
+}
+.game_profile_entry:hover {
+background: #f2f2f2;
+}
+.game_profile_photo img {
+  border: 1px solid #eee;
+}
+.game_profile_photo:hover img{
+  border: 1px solid #ccc;
+}
+.game_profile_entry_title {
+  font-weight: bold;
+}
+
+
+div.seGameSearch {
+background:#EEEEEE none repeat scroll 0 0;
+border:1px solid #AAAAAA;
+margin-bottom:8px;
+padding-left:10px;
+padding-right:10px;
+width:600px;
+}
+div.seGame {
+background:#F5F5F5 none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+margin-top:10px;
+padding:10px;
+width:600px;
+}
+td.seGameLeft {
+  vertical-align: top;
+}
+td.seGameRight {
+  vertical-align: top;
+padding-left:10px;
+}
+div.seGamePhoto {
+background:#FFFFFF none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+padding:5px;
+text-align:center;
+vertical-align:middle;
+}
+div.seGameTitle {
+border-bottom:1px solid #CCCCCC;
+font-size:10pt;
+font-weight:bold;
+margin-bottom:5px;
+padding:0 5px 5px 0;
+}
+div.seGameDesc {
+  padding-top: 5px;
+}
+div.seGameActions {
+  margin-top: 10px; 
+  border-top: 1px solid #DDDDDD; 
+  padding-top: 5px;
+}
+div.seGameAction {
+  float: left; padding-right: 15px;
+}
+
+div.seGameNoFile {
+  border: 1px solid red;
+}
+
+#gameViewSocialBookmarking {
+  float: right;
+}
+
+
+
+
+
+div.game_browse_options {
+  padding: 7px 10px 7px 10px; background: #F2F2F2; border: 1px solid #BBBBBB; margin: 0 0px 10px 0px; font-weight: bold;
+}
+div.game_browse_categories {
+margin-top: 10px; padding: 5px; background: #F2F2F2; border: 1px solid #BBBBBB; margin: 0 0px 10px 0px; font-weight: bold;
+}
+div.game_browse_category_item_all {
+padding: 5px 8px 5px 8px; border: 1px solid #DDDDDD; background: #FFFFFF;
+}
+div.game_browse_category_item {
+padding: 5px 8px 5px 8px; border: 1px solid #DDDDDD; border-top: none; background: #FFFFFF;
+}
+
+
+#gameBrowseEntries {
+	
+}
+.gameBrowseEntry {
+	float: left;
+	border: 1px solid #f2f2f2;
+	margin: 5px;
+	padding: 0;
+	width: 215px;
+}
+.game_row_photo {
+	padding: 5px;
+	background: #eee;
+	float: left;
+	margin-right: 5px;
+}
+.game_row_photo:hover {
+	background: #ccc;
+}
+.game_row_details {
+	background: #fff url(../images/menu_user.gif) repeat-x left top;
+	padding: 5px;
+}
+
+.gameBrowseEntryFeatured {
+}
+.gameBrowseEntryFeatured .game_row_title {
+	font-weight: bold;
+}
+
+
+.game_tooltip .tip {
+  color: #fff;
+  width: 139px;
+  z-index: 13000;
+  background: none;
+  border: none;
+}
+ 
+.game_tooltip .tip-title {
+  font-weight: normal;
+  font-size: 11px;
+  margin: 0;
+  color: #9FD4FF;
+  padding: 8px 8px 4px;
+  background: url(../images/icons/game_tooltip_bubble.png) top left;
+}
+ 
+.game_tooltip .tip-text {
+  font-size: 11px;
+  padding: 4px 8px 8px;
+  background: url(../images/icons/game_tooltip_bubble.png) bottom right;
+}

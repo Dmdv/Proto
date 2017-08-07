@@ -1,0 +1,59 @@
+#login_css {
+  display: none;
+}
+
+.page_section {
+  margin: 0 0 20px 82px;
+  padding-top: 32px;
+  width: 463px;
+}
+
+.page_section .error {
+  margin-bottom: 10px;
+  display: none;
+}
+.page_section .info {
+  padding-bottom: 25px;
+}
+.page_section .section_row {
+  padding-bottom: 5px;
+}
+.page_section .label {
+  padding: 4px 10px 0px 0px;
+  float: left;
+  text-align: right;
+  width: 135px;
+  color: #777;
+}
+.page_section .labeled {
+  float: left;
+}
+.page_section .labeled .text {
+  width: 192px;
+}
+.page_section .button_blue {
+  margin-top: 5px;
+}
+.page_section .msg {
+  margin: 20px 0;
+}
+.page_section .msg, .page_section .error, .page_section .info {
+  line-height: 160%;
+}
+.page_section h2 {
+  margin: 0 0 10px 0;
+  padding: 0 0 3px 0;
+}
+
+.bottom_row {
+  background-color: #F7F7F7;
+  border-top: 1px solid #C3CAD2;
+  color: #444444;
+  font-size: 11px;
+  padding: 6px;
+  text-align: center;
+}
+
+#pass_wrap {
+  display: none;
+}

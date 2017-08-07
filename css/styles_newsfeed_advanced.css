@@ -1,0 +1,79 @@
+.SEP_NewsfeedAdvanced_BiggerTextItem {
+	font-size:1.2em;	
+}
+
+
+#SEP_NewsfeedAdvanced_Overall {
+	width:80%;
+	padding-top:10px	
+}
+
+.SEP_NewsfeedAdvanced_Box {
+	margin-bottom:4px;
+	border-bottom:1px solid #f0f0f0;
+	border-top:1px solid #f3f3f3;
+	background:#F8F8F8;	
+	padding:3px;
+}
+
+.SEP_NewsfeedAdvanced_Box_Header {
+	padding-top:3px;
+	padding-bottom:3px;	
+}
+
+.SEP_NewsfeedAdvanced_Box_Header_Right {
+	float:right;	
+	width:60px;
+	height:20px;
+	padding:1px;
+	text-align:right;
+}
+
+.SEP_NewsfeedAdvanced_Date {
+	color:#999999;
+	font-size:0.9em;
+}
+
+.SEP_NewsfeedAdvanced_Textarea {
+	width:75%;
+	height:25px;
+	font-size:1.1em;
+	padding:2px;
+	
+	border:1px solid #AAAAAA;
+	color:#333333;
+	font-family:arial,verdana,serif;
+}
+
+.SEP_NewsfeedAdvanced_Textarea_Preview {
+	width:75%;
+	font-size:1.1em;
+	padding:2px;
+	height:13px;
+	border:1px solid #AAAAAA;
+	color:#b0b0b0;
+	font-family:arial,verdana,serif;
+}
+
+.SEP_NewsfeedAdvanced_Button {
+	padding:1px;	
+}
+
+
+.SEP_NewsfeedAdvanced_Salut {
+	color:#999999;	
+}
+
+.SEP_NewsfeedAdvanced_Middot {
+	position:relative;
+	bottom:-1px;	
+}
+
+
+.SEP_NewsfeedAdvanced_ItemHeader {
+	margin-bottom:3px;	
+	margin-top:-6px;
+}
+
+.SEP_NewsfeedAdvanced_Edit_Box {
+}

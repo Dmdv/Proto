@@ -1,0 +1,300 @@
+#tooltips_css {
+  display: none;
+}
+
+.tt {
+  position: absolute;
+  z-index: 2000;
+  cursor: default;
+}
+.tt .side_sh {
+  opacity: 0.05;
+  filter: alpha(opacity=5);
+  background: #000;
+  overflow: hidden;
+  width: 1px;
+  display: none;
+}
+.tt .outer .side_sh {
+  opacity: 0.12;
+  filter: alpha(opacity=12);
+}
+.tt .bottom_sh {
+  opacity: 0.05;
+  filter: alpha(opacity=5);
+  background: #000;
+  overflow: hidden;
+  height: 1px;
+  line-height: 1px;
+}
+.tt .top_pointer, .tt .bottom_pointer {
+  display: none;
+  position: relative;
+  bottom: -1px;
+  height: 8px;
+  width: 11px;
+  margin: 0px 20px;
+  overflow: hidden;
+}
+.tt .bottom_pointer {
+  bottom: auto;
+  top: -3px;
+}
+.tt .outer .bottom_sh {
+  opacity: 0.12;
+  filter: alpha(opacity=12);
+}
+.tt.rich .side_sh {
+  display: table-cell;
+}
+.tt .tt_text {
+  background: #FFF;
+  border: 1px solid #96AABE;
+  padding: 2px 5px 3px;
+  color: #2C587D;
+}
+
+.wall_tt table.toup .top_pointer,
+.board_tt table.toup .top_pointer {
+  margin-right: 0px;
+  margin-left: 64px;
+  display: block;
+  background: url(/images/tooltip_arrow_up.gif) no-repeat;
+}
+.wall_tt table.toup1 .bottom_pointer,
+.like_tt table.toup1 .bottom_pointer,
+.board_tt table.toup1 .bottom_pointer {
+  margin-right: 0px;
+  margin-left: 64px;
+  display: block;
+  background: url(/images/tooltip_arrow_white.gif) no-repeat;
+}
+.fwd_reply_tt table.toup .top_pointer, .fwd_reply_tt table.toup1 .bottom_pointer {
+  margin-left: 309px;
+}
+.wall_tt.bottom table.toup1 .bottom_pointer,
+.like_tt.bottom table.toup1 .bottom_pointer,
+.board_tt.bottom table.toup1 .bottom_pointer {
+  background: url(/images/tooltip_arrow_down.gif) no-repeat;
+}
+.like_tt table.toup1 .bottom_pointer.no_shadow {
+  background: url(/images/tooltip_arrow_white1.gif) no-repeat;
+}
+.like_tt table.toup .top_pointer {
+  margin-right: 0px;
+  margin-left: 64px;
+  display: block;
+  bottom: -2px;
+  background: url(/images/tooltip_arrow_up_b.gif) no-repeat;
+}
+.wall_tt .header {
+  color: #36638E;
+  font-weight: bold;
+  overflow: hidden;
+  margin: 0px 0px 6px;  
+}
+.like_tt .header {
+  border: 1px solid #3B6798;
+  cursor: pointer;
+}
+.like_tt .header div {
+  background: #6D8FB3;
+  border: 1px solid;
+  border-color: #7E9CBC #5C82AB #5C82AB;
+  color: #FFF;
+  padding: 2px 9px 3px;
+  text-shadow: #45688E 0px 1px 0px;
+}
+.wall_tt .bottom, .like_tt .bottom {
+  background: #EEF2F6;
+  border-top: 1px solid #CCD3DC;
+  padding: 8px 10px;  
+}
+.like_tt .bottom .checkbox {
+  color: #2B587A;
+}
+.wall_tt .wrap, .bp_tt_wrap {
+  border: 1px solid #AEBDCC;
+  background: #FFF;
+}
+.like_tt .wrap {
+  border: solid #AEBDCC;
+  border-width: 0px 1px 1px 1px;
+  background: #FFF;
+}
+.wall_tt .open_graph span {
+  color: #777;
+}
+.wall_tt div.thumb {
+  margin: 0px 10px 10px 0px;
+}
+.wall_tt table.withphoto td {
+  vertical-align: top;
+  padding: 0px 10px;
+}
+.wall_tt table.withphoto td.thumb {
+  padding: 3px 0px 0px;
+}
+.wall_tt .content {
+  max-width: 360px;
+  width: auto !important;
+  width: 360px;
+  padding: 10px;
+  overflow: hidden;
+}
+* html .wall_tt .content {
+  width: expression((this.flag == undefined) ? (this.scrollWidth > 360) ? this.flag = '360px' : 'auto' : '');
+}
+.like_tt .content table {
+  position: relative;
+}
+.like_tt .content {
+  width: 180px;
+  padding: 10px;
+}
+.like_tt .content .hider {
+  width: 180px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.like_tt .content a {
+  display: block;
+  height: 25px;
+  width: 25px;
+  margin-right: 6px;
+  overflow: hidden;
+}
+.like_tt .content img {
+  width: 25px;
+  height: 25px;
+}
+
+.wall_checkin_tt .label {
+  width: 80px;
+  color: #777;
+  padding: 2px 0px;
+}
+.wall_checkin_tt .header {
+  border-bottom: 1px solid #DAE1E8;
+  margin-bottom: 4px;
+}
+.wall_checkin_tt .header span {
+  display: block;
+  color: #777;
+  font-weight: normal;
+  font-size: 10px;
+  margin: 2px 0px;
+}
+
+.wall_poll_tt .content table {
+  width: 300px;
+}
+.wall_poll_tt .radiobtn {
+  padding: 4px 0px;
+}
+.wall_poll_tt .wall_poll_row {
+  background: #FAFAFA;
+  width: 95%;
+}
+.wall_poll_tt .wall_poll_row_desc {
+  padding: 2px 4px;
+}
+.wall_poll_tt .wall_poll_text {
+  padding: 7px 2px 2px;
+}
+.wall_poll_tt .wall_poll_percent {
+  background: #DAE1E8;
+  border-top: 1px solid #CAD1E9;
+  height: 14px;
+}
+
+.share_tt table.toup .top_pointer {
+  margin-right: 0px;
+  margin-left: 15px;
+  display: block;
+  background: url(/images/like_tooltip_arrow.gif) no-repeat;
+}
+.share_tt table.toup1 .bottom_pointer {
+  display: block;
+  margin: 0px 15px;
+  background: url(/images/like_tooltip_arrow.gif) no-repeat left -8px;
+}
+.share_tt .content {
+  padding: 5px;
+  border: 1px solid #AEBDCC;
+  background: #F7F7F7;
+  color: #2B587A;
+}
+
+.invite_tt table .tt_text {
+  color: #000;
+  padding: 12px 16px;
+  line-height: 160%;
+  width: 385px;
+}
+.invite_tt table.toup .top_pointer {
+  display: block;
+  background: url(/images/tooltip_arrow_up.gif) no-repeat;
+}
+#top_invite_hint {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin-top: -30px;
+  margin-left: 220px;
+}
+#invite_hint_img {
+  background: url(/images/relatives.gif?2) no-repeat left top;
+  width: 59px;
+  height: 30px;
+  margin: 2px 0px 0px 0px;
+}
+#invite_hint_close {
+  right: 3px;
+  position: absolute;
+  top: 13px;
+  width: 18px;
+  height: 18px;
+  background: url(/images/hide_left.gif) no-repeat center center;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bp_tt_content {
+  max-width: 450px;
+  width: auto !important;
+  width: 450px;
+  padding: 1px;
+  overflow: hidden;
+}
+* html .bp_tt_content {
+  width: expression((this.flag == undefined) ? (this.scrollWidth > 450) ? this.flag = '450px' : 'auto' : '');
+}
+.bp_tt_content .bp_text {
+  width: 367px;
+}
+.bp_tt_content .bp_post {
+  width: 468px;
+}
+.board_tt table.toup .top_pointer {
+  margin-right: 0px;
+  margin-left: 84px;
+}
+.board_tt table.toup1 .bottom_pointer {
+  margin-right: 0px;
+  margin-left: 84px;
+}
+.bp_tt_header {
+  color: #36638E;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 10px 10px 6px;
+}
+.bp_tt_doc {
+  padding: 0px 10px 10px;
+}
+.bp_tt_docsize {
+  color: #777;
+}

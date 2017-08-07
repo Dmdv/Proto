@@ -1,0 +1,35 @@
+table.tabs {
+	margin-bottom: 10px;
+}
+td.tab {
+	background: #FFFFFF;
+	padding-left: 1px;
+	border-bottom: 1px solid #CCCCCC;
+}
+td.tab0 {
+	font-size: 1pt;
+	padding-left: 3px;
+	border-bottom: 1px solid #CCCCCC;
+}
+td.tab1 {
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #AAAAAA;
+	border-bottom: none;
+	font-weight: bold;
+	padding: 6px 8px 6px 8px;
+}
+td.tab2 {
+	background: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	border-top: 3px solid #CCCCCC;
+	font-weight: bold;
+	padding: 6px 8px 6px 8px;
+}
+td.tab3 {
+	background: #FFFFFF;
+	border-bottom: 1px solid #CCCCCC;
+	padding-right: 12px;
+	width: 100%;
+	text-align: right;
+	vertical-align: middle;
+}

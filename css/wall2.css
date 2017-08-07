@@ -1,0 +1,70 @@
+/* WALLPOST */
+
+#content {
+        padding: 0px 0px 0px 0px;
+}
+
+.wallpost {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+}
+
+.wallpost td {
+  padding: 0px;
+  vertical-align: top; }
+
+.wallpost td.image {
+  width: 55px;
+  text-align: left; }
+  
+.wallpost td.image div {
+  width: 55px;}
+  
+.wallpost td.image img {
+    width: 50px;
+    margin-right: 5px; }
+
+.wallpost .info {
+  width: 100%;
+  border-top: solid 1px #45688E; }
+
+.wallpost .info .header {    
+  line-height: 13px;
+  padding: 3px 5px 3px;
+  background: #f7f7f7;
+  border-bottom: solid 1px #DAE2E8; }
+
+.wallpost .info .actions {
+  padding: 3px 5px;
+  border-bottom: solid 1px #DAE2E8;
+  border-top: none;
+  clear: right;  
+  line-height: 13px;
+}
+
+.wallpost .info .header a.profile_link {
+  font-weight: bold;
+}
+
+.wallpost .info .actions a:hover {
+  text-decoration: underline; }
+
+.wallpost .info .text {
+  padding: 5px 5px;}
+
+.wallpost .photo img {
+  width:75px;
+  margin-left: 5px; }
+
+#wall {
+  padding: 10px;
+  background: #f7f7f7; }
+
+#wallpage {
+  padding: 20px;
+  border: solid 1px #ccc;
+  background: white; }
+  
+#wallpage .nav {
+  margin-bottom: 5px; }

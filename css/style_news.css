@@ -1,0 +1,44 @@
+/* CSS Document */
+.ad_box { 
+background-attachment: scroll;
+background-color: #f7f7f7;
+background-image: none;
+background-position: 0% 0%;
+background-repeat: repeat;
+border-bottom-color: #7DA37E;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-left-color: #7DA37E;
+border-left-style: solid;
+border-left-width: 0px;
+border-right-color: #7DA37E;
+border-right-style: solid;
+border-right-width: 0px;
+border-top-color: #7DA37E;
+border-top-style: solid;
+border-top-width: 1px;
+display: block;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: center;
+width: 118px;
+}
+.ad_title { 
+color: #36638e;
+font-size: 11px;
+font-weight: 700;
+margin-bottom: 0px;
+margin-left: 3px;
+margin-right: 3px;
+margin-top: 0px;
+padding-top: 8px;
+text-align: center;
+}

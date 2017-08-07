@@ -1,0 +1,62 @@
+<style type="text/css">
+
+#nave, #nave ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+  background: #515151;
+  float: left;
+  width: 100%;
+}
+#nave li {
+  float: left;
+  position: relative;
+  background: #515151;
+  back\ground: none;
+}
+#nave li ul {
+  display: none;
+}
+#nave a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 120px;
+  padding: 4px 10px;
+  background: url(dot.png) repeat-y right;
+}
+#nave a:hover {
+  color: #000;
+  background: #ccc;
+}
+#nave li:hover {
+  background: #333;
+}
+#nave li ul {
+  display: none;
+}
+#nave li ul {
+  display: none;
+  position: absolute;
+  background: url(../../../images/fone-tr.png);
+  padding: 8px 0;
+  width: 138px;
+}
+#nave li li a {
+  width: 118px;
+  background: none;
+}
+#nave li:hover ul {
+  display: block;
+}
+#nave li:hover li ul {
+  display: none;
+  width: 138px;
+  top: -9px;
+  left: 133px;
+}
+#nave li:hover li:hover ul {
+  display: block;
+}
+</style>

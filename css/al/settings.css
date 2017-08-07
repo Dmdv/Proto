@@ -1,0 +1,547 @@
+#settings_css {
+  display: none;
+}
+
+.settings_privacy {
+  background: #F7F7F7;
+  padding: 12px 30px;
+}
+.settings_privacy_row {
+  padding: 12px 12px 0;
+  width: 298px;
+  vertical-align: top;
+}
+.settings_privacy_control {
+  position: relative;
+  padding-top: 11px;
+  border: 1px solid #F7F7F7;
+}
+.settings_view_as_text {
+  border-top: 1px solid #DAE1E8;
+  line-height: 140%;
+  padding: 10px 100px;
+  background: #FFF;
+}
+.settings_privacy_save {
+  padding: 25px 0 15px;
+}
+#settings_privacy_result, #settings_result {
+  display: none;
+  background: #F7F7F7;
+  padding: 15px 15px 0;
+}
+#settings_save_msg {
+  line-height: 160%;
+  background: #F4EBBD;
+}
+
+#settings_save_error {
+  line-height: 160%;
+  text-align: left;
+}
+
+
+#privacy_l_item101 .privacy_item_icon,
+#privacy_l_item102 .privacy_item_icon,
+#privacy_l_item103 .privacy_item_icon,
+#privacy_l_item104 .privacy_item_icon,
+#privacy_l_item105 .privacy_item_icon,
+#privacy_l_item106 .privacy_item_icon,
+#privacy_l_item107 .privacy_item_icon,
+#privacy_l_item108 .privacy_item_icon,
+#privacy_l_item109 .privacy_item_icon,
+#privacy_l_item110 .privacy_item_icon  {
+  background-image: url(/images/icons/mono_iconset.gif?6);
+  float: right;
+  background-position: left 0;
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px;
+  margin-top: 1px;
+  *position: relative;
+}
+#privacy_l_item101 .privacy_item_icon { background-position: 0 -30px; }
+#privacy_l_item102 .privacy_item_icon { background-position: 0 -75px; }
+#privacy_l_item103 .privacy_item_icon { background-position: 0 -148px; }
+#privacy_l_item104 .privacy_item_icon { background-position: 0 -192px; }
+#privacy_l_item105 .privacy_item_icon { background-position: 0 -15px; }
+#privacy_l_item106 .privacy_item_icon { background-position: 0 -88px; }
+#privacy_l_item107 .privacy_item_icon { background-position: 0 -164px; }
+#privacy_l_item108 .privacy_item_icon { background-position: 0 -264px; }
+#privacy_l_item109 .privacy_item_icon { background-position: 0 0px; }
+#privacy_l_item110 .privacy_item_icon { background-position: 0 -104px; }
+
+/* Blacklist */
+#settings_bl_bar {
+  padding: 10px;
+  background: #F7F7F7;
+  border-bottom: 1px solid #DAE1E8;
+}
+#settings_bl_search {
+  margin: 0;
+  padding: 5px 4px 4px 20px;
+  width: 402px;
+  height: 14px;
+  line-height: 14px;
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+}
+#search_bl_submit {
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 168px;
+  text-align: center;
+}
+#settings_bl_list_wrap {
+  padding: 0 10px;
+}
+#settings_bl_result {
+  padding: 15px 5px 5px;
+  display: none;
+}
+#settings_bl_msg {
+  line-height: 160%;
+  background: #F4EBBD;
+}
+.settings_bl_row {
+  padding: 10px;
+  height: 25px;
+  overflow: hidden;
+  border-bottom: 1px solid #DAE2E8;
+}
+.settings_bl_row:last-child {
+  border-bottom: 0;
+}
+img.settings_bl_photo {
+  width: 25px;
+  height: 25px;
+}
+.settings_bl_name {
+  padding: 5px 0 0 10px;
+  font-weight: bold;
+}
+.settings_bl_label {
+  font-weight: normal;
+  color: #777;
+  padding-left: 2px;
+  display: none;
+}
+.settings_bl_action {
+  padding-top: 5px;
+}
+#settings_bl_noempty {
+  min-height: 256px;
+}
+#settings_bl_empty {
+  font-size: 12px;
+  padding: 100px 30px;
+  text-align: center;
+  color: #777;
+}
+
+#settings_panel {
+  background: #F7F7F7;
+  padding: 10px 0 0 0;
+}
+#settings_panel .msg {
+  margin: 0 10px;
+  border:1px solid #B9C4DA;
+  line-height: 160%;
+  font-weight: normal;
+  background-color:#FFF;
+}
+#settings_panel .settings_section .msg {
+  margin: 0;
+}
+.settings_section {
+  margin: 0 0 25px 113px;
+  width: 400px;
+}
+.setbal_section {
+  margin: 0 auto 25px;
+  width: 380px;
+  line-height: 160%;
+}
+.settings_section h2, .setbal_section h2 {
+  margin: 10px 0 15px 0;
+  font-weight: bold;
+  font-size: 12px;
+  color: #36638E;
+  border-color: #B9C4DA;
+}
+.settings_section h4 {
+  padding: 12px 0 0 0;
+  border: none;
+}
+.settings_section .settings_privacy_row {
+  width: 166px;
+}
+.settings_section .settings_privacy_buttons {
+  padding-top: 15px;
+}
+.settings_section .settings_privacy_input {
+  padding-top: 8px;
+}
+.settings_privacy_text {
+  padding-top: 12px;
+}
+.settings_section_notice {
+  padding: 20px 0 0 2px;
+  line-height: 160%;
+}
+.settings_buttons {
+  margin-left: 255px;
+  padding-top: 10px;
+}
+.settings_section .settings_buttons {
+  margin-left: 140px;
+}
+.notify_settings .settings_privacy_row {
+  width: 140px;
+}
+.settings_privacy_control .checkbox {
+  margin-top: -1px;
+}
+#settings_panel .frow {
+  padding-top: 15px;
+}
+#settings_panel .label {
+  padding: 5px 15px 3px 0;
+  color: #555;
+  width: 125px;
+  clear: both;
+}
+#settings_panel .labeled {
+  width: 260px;
+  padding: 2px 0 3px 0;
+}
+#settings_panel .labeled input {
+  width: 142px;
+}
+#settings_panel .labeled small {
+  color: #777;
+}
+#settings_panel .labeled_text {
+  padding: 5px 0 3px 0;
+}
+input#pin {
+  width: 100px;
+}
+#lj_data {
+  padding-top: 10px;
+}
+#settings_panel .settings_section #lj_data .msg {
+  margin-bottom: 10px;
+  padding: 7px;
+}
+#lj_data .msg div {
+  padding-top: 5px;
+}
+#lj_data .msg img {
+  margin: 3px 7px;
+  width: 44px;
+  height: 44px;
+}
+#lj_error {
+  padding: 10px 0px 10px 140px;
+  color: #800;
+}
+#cancel_lj_data {
+  margin-left: 7px;
+}
+.export_clear {
+  padding-top: 5px;
+}
+
+/* General settings */
+.settings_row_wrap {
+  padding-bottom: 10px;
+}
+.settings_label {
+  padding: 5px 15px 3px 0;
+  color: #555;
+  width: 125px;
+}
+.setbal_label {
+  color: #777;
+  width: 135px;
+  padding: 15px 15px 3px;
+}
+.settings_row_button_wrap {
+  padding-left: 140px;
+}
+.setbal_row_button_wrap {
+  padding: 13px 165px 0px;
+}
+.settings_labeled_text {
+  width: 250px;
+  padding-top: 5px;
+}
+.setbal_labeled_text {
+  width: 180px;
+  padding-top: 15px;
+}
+.settings_hidden {
+  font-size: 10px;
+  color: #777;
+  padding-top: 1px;
+}
+#settings_services {
+  padding-top: 10px;
+}
+.settings_service_row {
+  padding-bottom: 6px;
+}
+.settings_service_row  .settings_label,
+#settings_microblog .settings_label {
+  color: #777;
+  padding: 0 15px 0 0;
+  height: 15px;
+}
+.settings_all_services {
+  padding: 4px 0 0 140px;
+}
+
+#settings_microblog {
+  width: 450px;
+}
+.settings_microblog_row {
+  padding-bottom: 10px;
+}
+#settings_no_replies_wrap {
+  padding-bottom: 0;
+}
+
+#settings_old_pwd,
+#settings_new_pwd,
+#settings_confirm_pwd,
+#settings_new_mail,
+#settings_new_phone {
+  width: 142px;
+}
+
+#settings_addr_table {
+  background: #FFF;
+  border: 1px solid #C0CAD5;
+}
+.settings_edit_addr_label {
+  color: #777;
+  padding: 3px 0px 3px 3px;
+}
+#settings_addr {
+  border: 0;
+  padding: 3px 3px 3px 0;
+  width: 146px;
+  outline: 0;
+}
+#settings_address_submit_wrap {
+  overflow: hidden;
+  position: relative;
+}
+#settings_addr_disabler {
+  display: none;
+  width: 400px;
+  background: #FFF;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: absolute;
+  height: 25px;
+  z-index: 10;
+}
+
+.settings_about_tt table .tt_text {
+  color: #000;
+  padding: 10px;
+  width: 310px;
+}
+
+.settings_about_tt table.toup1 .bottom_pointer {
+  margin-right: 0px;
+  margin-left: 64px;
+  display: block;
+  background: url(/images/tooltip_arrow_white.gif) no-repeat;
+}
+.settings_about_tt table.toup .top_pointer {
+  margin-right: 0px;
+  margin-left: 64px;
+  display: block;
+  bottom: -2px;
+  background: url(/images/tooltip_arrow_up.gif) no-repeat;
+}
+.settings_side_pwd_tt table .tt_text {
+  line-height: 120%;
+  color: #000;
+  padding: 10px;
+  width: 280px;
+}
+.settings_side_email_tt table .tt_text {
+  line-height: 120%;
+  color: #000;
+  padding: 10px;
+  width: 200px;
+}
+
+.settings_password_hint {
+  width: 280px;
+  list-style: url(/images/bullet.gif) outside;
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+.settings_side_tt_pointer {
+  background: url(/images/ddtooltip.png) 0 0 no-repeat;
+  width: 8px;
+  height: 11px;
+  position: absolute;
+  left: -7px;
+  top: 40px;
+  overflow: hidden;
+  z-index: 10;
+}
+.settings_pwd_pointer {
+  top: 35px;
+}
+#settings_pwd_tt_place {
+  width: 1px;
+  height: 1px;
+}
+.settings_email_pointer {
+  top: 32px;
+}
+#settings_last_activity_wrap {
+  padding-bottom: 10px;
+}
+
+#settings_address_check {
+  width: 120px;
+  text-align: center;
+  height: 15px;
+  padding: 6px 0;
+}
+#settings_address_progress {
+  margin: 4px auto;
+}
+#settings_address_result {
+  padding: 0 10px;
+}
+#settings_save_error {
+  margin-bottom: 15px;
+}
+
+table.history {
+	margin: 15px 0 15px 0;
+	padding: 0 11px;
+	width: 100%;
+	border: none;
+}
+table.history tr td, table.history tr th {
+	padding: 10px 0;
+}
+table.history tr td {
+	border-bottom: 1px solid #EEE;
+}
+table.history tr.last td {
+	border-bottom: none;
+}
+table.history tr.old_session {
+ color: #999;
+}
+table.history .cur_session {
+	padding-left: 10px;
+	color: #999;
+}
+#activityCtrl {
+  margin-left: 11px;
+}
+#email_bind_box {
+  display: none;
+}
+.settings_box_container .label {
+  padding: 5px 15px 3px 0;
+  width: 95px;
+  clear: both;
+}
+.settings_box_container .labeled {
+  width: 260px;
+  padding: 2px 0 3px 0;
+}
+.settings_box_container .labeled input {
+  width: 160px;
+}
+.settings_box_container .labeled span {
+  padding-top: 5px;
+  display: block;
+  color: #555;
+}
+#email_bind_error {
+  margin-bottom: 16px;
+  display: none;
+  line-height: 160%;
+  text-align: left;
+}
+
+#settings_deact_reasons {
+  padding: 0px 10px;
+}
+.settings_deact_friends {
+  margin: 5px 0px 15px;
+}
+.settings_deact_header {
+  font-size: 12px;
+  margin-bottom: 19px;
+}
+.settings_deact_page {
+  padding: 30px 50px;
+}
+.settings_reason {
+  padding: 1px 0px;
+}
+.settings_reason_desc {
+  /*padding-bottom: 15px;
+  color: #777777;*/
+  display: none;
+}
+.settings_reason_text {
+  width: 360px;
+  margin-top: 5px;
+  height: 33px;
+}
+.settings_deact_opts {
+  /*border-top: 1px solid #E8EBEE;*/
+  padding: 0px 10px 10px;
+  margin-top: 3px;
+}
+.settings_deact_checkbox {
+  margin: 5px 15px;
+}
+.settings_restore_cont {
+  padding: 40px 60px;
+}
+.settings_restore_cont h4 {
+  font-size: 12px;
+}
+.settings_restore_desc {
+  padding: 10px 0px 20px 0px;
+}
+.setting_checkbox_label {
+  padding: 5px 0px 0px 0px;
+}
+#settings_email_saved {
+  padding: 6px 6px 0px;
+  color: #888888;
+}
+
+#settings_new_phone_list {
+  color: #000;
+  padding-top: 10px;
+}
+
+#settings_name_moved_row {
+  overflow: hidden;
+}
+.settings_name_moved_wrap {
+  margin: 0 0 0 140px;
+}
+.settings_name_moved {
+  line-height: 160%;
+  margin-bottom: 8px;
+}
+

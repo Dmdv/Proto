@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+  font-size: 11px;
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+#page {
+  background-color: #F7F7F7;
+  padding: 10px;
+  height: 50px;
+  border-bottom: 1px solid #DAE2E8;
+}
+.row {
+  clear: both;
+  height: 26px;
+}
+label {
+  font-weight: normal;
+}
+.row .label {
+  float: left;
+  width: 80px;
+  color: #777;
+  padding: 4px 10px 0px 0px;
+  text-align: right;
+}
+.row .labeled {
+  float: left;
+  width: 390px;
+  border: 1px dashed #ddd;
+  border-left: none;
+}
+.row .please {
+  float: left;
+  width: 120px;
+  font-size: 10px;
+  color: #800;
+  display: none;
+}
+.row .labeled input.inputText {
+  width: 372px;
+}
+.row .labeled textarea {
+  width: 372px;
+}
+#cont_wrapper {
+  background-color: #FFF;
+  clear: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#cont {
+  width: 500px;
+  margin: 0px auto;
+}
+
+
+a {
+font-size: 12px;
+text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#url_text {
+  padding: 4px;
+  color: #666;
+}
+#share_title {
+  padding: 4px;
+  font-weight: bold;
+  color: #36638E;
+}
+#share_domain {
+  padding: 0px 4px;
+  color: #999;
+}
+
+.button_green {
+  text-align: center;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+.button_green button {
+  border: 1px solid;
+  background: none;
+  font-size: 11px;
+  margin: 0px;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  padding: 2px 14px 5px;
+  font-family: tahoma, verdana, arial, sans-serif, Lucida Sans;
+  overflow: visible;
+}
+.button_wide {
+  display: block;
+}
+.button_wide button {
+  width: 100%;
+}
+
+.button_green button::-moz-focus-inner,
+.button_gray button::-moz-focus-inner {
+  border: 0;
+}
+
+.button_green {
+  border: 1px solid #3D871D;
+  background: #5D81A7;
+}
+.button_green button {
+  border-top-color: #679430;
+  border-bottom-color: #649230;
+  border-left-color: #649230;
+  border-right-color: #649230;
+  color: #FFF;
+  text-shadow:0 1px 0 #5a8e45;
+  border-top: 1px solid #329854;
+  border-bottom:0px;
+  border-right:0px;
+  border-left:0px;
+  background: url('/images/ui/buttons/button_green.png') #6181a6 repeat-x top;
+  background-position: 0px -16px;
+}
+.button_green button:hover {
+ background-position: 0px -8px;
+}
+.button_green button:active {
+  background: #14893D;
+  border-top: 1px solid #14893D;
+  position:relative;
+}

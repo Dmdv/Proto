@@ -1,0 +1,264 @@
+#pages_css {
+  display: none;
+}
+
+.pages_cont {
+  padding: 10px;
+  line-height: 140%;
+}
+
+.pages_empty {
+  padding: 80px 10px;
+  background: #F7F7F7;
+  border: 1px solid #CCC;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  line-height: 200%;
+}
+
+#pages_progress {
+  margin: 9px 0px 0px 575px;
+  position: absolute;
+  display: none;
+}
+.pages_right_link {
+  padding-top: 5px;
+}
+
+#pages_error {
+  border: 1px solid #E89B88;
+  background-color: #FFEFE8;
+  padding: 8px 11px;
+}
+
+#pages_error_wrap {
+  padding: 10px;
+  padding-bottom: 0px;
+  display: none;
+  background: #F7F7F7;
+}
+.pages_main {
+  padding: 11px 10px;
+  background: #F7F7F7;
+}
+.pages_section_view .pages_main {
+  padding: 0px;
+  background: #FFFFFF;
+}
+.pages_section_history .pages_main {
+  padding: 0px;
+  background: #FFFFFF;
+}
+.pages_body {
+  width: 598px;
+  height: 350px;
+  border: 1px solid #C0CAD5;
+  padding: 3px;
+  font-size: 11px;
+  font-family: tahoma, tahoma, verdana;
+}
+#pages_html {
+  width: 598px;
+  height: 350px;
+}
+.pages_buttons {
+  padding: 5px 0px 0px 0px;
+  width: 607px;
+}
+.pages_wysiwyg {
+  padding-bottom: 3px;
+}
+.pages_acts {
+  padding: 5px 4px 0px 0px;
+}
+.pages_access_options .radiobtn {
+  display: block;
+  margin: 10px 0px;
+}
+#pages_edit_title {
+  width: 598px;
+  margin: 4px 0px 15px 0px;
+}
+.pages_save_info {
+  padding: 6px 10px 0px 10px;
+  color: #777777;
+}
+#pages_preview {
+  /*border-top: 1px solid #C0CAD5;*/
+  padding: 10px;
+}
+.pages_info_line {
+  background: #F7F7F7;
+  padding: 0px 0px 10px 0px;
+  line-height: 140%;
+}
+.pages_section_view .pages_info_line {
+  border-bottom: 1px solid #C0CAD5;
+  padding: 11px 10px;
+}
+.pages_info_header {
+  background: #F7F7F7;
+  padding: 0px 0px 10px 0px;
+  line-height: 140%;
+  padding: 8px 10px;
+  width: 607px;
+  border-bottom: 1px solid #C0CAD5;
+}
+.pages_content {
+  padding-top: 10px;
+}
+.pages_actions {
+  padding: 2px 5px 0px 5px;
+  font-size: 11px;
+  font-weight: normal;
+}
+.pages_header {
+  color: #45688E;
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 1px solid #DAE1E8;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+.pages_edit_history {
+  padding: 5px 10px 20px 10px;
+  width: 607px;
+}
+.pages_history_header {
+  width: 100%;
+}
+.pages_history_table {
+  width: 100%;
+  border-bottom: 1px dashed #CCCCCC;
+}
+.pages_history_header td {
+  padding: 0px 10px;
+  font-weight: normal;
+}
+.pages_history_table td {
+  padding: 8px 10px;
+}
+.pages_info_header h4 {
+  border: none;
+}
+.pages_select_version {
+  background: #FFFFFF;
+  border: 1px solid #C0CAD5;
+  margin: 2px 0px 8px 0px;
+}
+.pages_not_selected {
+  padding: 8px 8px;
+  color: #777777;
+}
+
+#pages_compare_cont {
+  padding: 0px 0px 20px 0px;
+  display: none;
+}
+#pages_compare_disabler {
+  position: absolute;
+  background: #FFFFFF;
+  opacity: 0.4;
+  z-index: 10;
+}
+.pages_select_version .pages_history_table {
+  border-bottom: none;
+}
+.pages_edit_history .pages_compare {
+  background: #F7F7F7;
+}
+.pages_edit_empty {
+  text-align: center;
+  padding: 70px 30px 70px 30px;
+}
+.pages_summary {
+  border-bottom: 1px solid #E7EAED;
+  color: #47688D;
+  padding: 14px 10px 4px;
+  font-weight: bold;
+}
+.pages_notifications {
+  padding: 0px 10px 10px 10px;
+}
+.pages_notify_row {
+  border-top: 1px solid #DAE2E8;
+  padding: 8px 10px 8px 10px;
+}
+.pages_notify_first {
+  border-top: none;
+  margin-top: 5px;
+}
+.pages_notify_unread {
+  background: #F5F9FB;
+}
+.pages_notify_unread.pages_notify_first {
+  margin-top: 10px;
+}
+.pages_notify_date {
+  color: #777777;
+  padding-top: 4px;
+}
+.pages_delete_row {
+  margin-top: -2px;
+  margin-right: -6px;
+  background: url("../../images/pics/statusx_op.gif") no-repeat scroll 3px 3px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+  height: 17px;
+  width: 17px;
+}
+.pages_notify_deleted {
+  color: #777777;
+  padding: 4px 0px;
+}
+.pages_notifications_empty {
+  padding: 130px 10px;
+  background: #F7F7F7;
+  border: 1px solid #CCC;
+  margin: 15px 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+.pages_bl_row {
+  padding: 10px;
+  height: 25px;
+  overflow: hidden;
+  border-bottom: 1px solid #DAE2E8;
+}
+img.pages_bl_photo {
+  width: 25px;
+  height: 25px;
+}
+.pages_bl_name {
+  padding: 5px 0 0 10px;
+  font-weight: bold;
+}
+.pages_bl_action {
+  padding-top: 5px;
+}
+.pages_row_info {
+  padding: 5px 0px 0px 0px;
+}
+.pages_user_form {
+  background: #F7F7F7;
+  padding: 10px;
+  border-bottom: 1px solid #DAE1E8;
+}
+input.pages_user_field {
+  margin: 0;
+  padding: 5px 4px 4px 20px;
+  width: 402px;
+  height: 14px;
+  line-height: 14px;
+  background: #FFFFFF url('../../images/magglass.png') no-repeat 5px 6px;
+}
+.pages_help {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 400px;
+  padding: 20px;
+}

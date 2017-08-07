@@ -1,0 +1,89 @@
+
+/* $Id: styles_money.css socialengine.ru $ */
+
+
+/* VIEW MONEY */
+table.sms {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #0094FF;
+	font-weight: bold;
+	background: #ADDDFF;
+	color: #fff;
+	width: 490px;
+}
+td.sms {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	font-weight: bold;
+	background: #7FC9FF;
+	color: #fff;
+}
+td.sms2 {
+	background: #f0f0f0;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 5px 7px 5px 7px;
+	margin-bottom: 12px;
+}
+table.wm {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #0094FF;
+	font-weight: bold;
+	background: #ADDDFF;
+	color: #fff;
+	width: 400px;
+}
+
+input.but {
+	font-family: arial, verdana, serif;
+	font-size: 8pt;
+	padding: 3px;
+	color: #fff;
+	font-weight: bold;
+	background: #0094FF;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+}
+table.error {
+	padding: 4px 5px 5px 6px;
+	border: 1px dashed #555;
+	font-weight: bold;
+	background: #FF7F7F;
+	color: #fff;
+	width: 400px;
+}
+td.error {
+	padding: 5px 7px 5px 7px;
+	font-weight: bold;
+	background: #FF7F7F;
+	color: #fff;
+}
+table.result {
+	padding: 4px 5px 5px 6px;
+	border: 1px dashed #555;
+	font-weight: bold;
+	background: #A5FF7F;
+	color: #fff;
+	width: 400px;
+}
+form {
+	margin: 0px;
+}
+td.form1 {
+	padding: 10px 0px 5px 10px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+}
+td.form2 {
+	padding: 5px 0px 5px 10px;
+}
+
+
+
+
+
+
+
+
+

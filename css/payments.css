@@ -1,0 +1,341 @@
+.systemBtn {
+  display: block;
+  width: 200px;
+  height:60px;
+  float:left;
+}
+#systemSelector{
+  height:60px;
+  width: 400px; 
+  margin: 0 auto 5px;
+}
+.systemBtn a.systemLogo {
+  display: block;
+  float:left;
+  width:140px;
+  height:40px;
+}
+.term a.systemLogo {
+  width:115px;
+  height:63px;
+}
+
+.systemBtn img {
+  position: absolute;
+  margin:2px 5px;
+}
+.systemBtn div{
+  width: 140px;
+  visibility: hidden;
+  opacity: 0.85;
+  filter:alpha(opacity=85);
+  position: absolute;
+  background: #E3EAEF;
+}
+.term div{
+  width: 115px;
+}
+
+.systemBtn div.systemLink {
+  color:#000;
+  background:#F2E9BA !important;
+  text-align: center;
+  margin: 40px 0px 0px 0;
+  z-index: 999;
+}
+.term div.systemLink {
+  margin-top: 63px;
+}
+
+.systemBtn span {
+  margin: 2px 0px 2px 0px;
+  display: block;
+  color:#2B587A;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.systemBtn a.systemLogo:hover div{
+  visibility:visible;
+}
+
+.systemBtn a.systemLogo:hover {
+  background: #E3EAEF;
+}
+/*#F2E9BA*/
+b.rbottom, b.rbottom2{display:block; background:#FFF;}
+b.rbottom b, b.rbottom2 b{display:block; height: 1px; overflow:hidden;  background:#F2E9BA;}
+b.rbottom2 b{display:block; height: 1px; overflow:hidden;  background:#E3EAEF;}
+b.rbottom b.r, b.rbottom2 b.r{margin: 0 1px;height: 1px;}
+b.rtop{display:block; background:#FFF;}
+b.rtop b{display:block; height: 1px; overflow:hidden;  background:#E3EAEF;}
+b.rtop b.r{margin: 0 1px;height: 1px;}
+
+.system_selector div {
+  line-height: 100%;
+}
+
+.system_selector input[type="radio"] {
+  afloat: left;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.system_btn, .system_btn_hover {
+  float: left;
+  margin: 0 3px;
+}
+
+.system_btn_t, .system_btn_b {
+  background: white;
+  margin: 0 1px;
+  height: 1px;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.system_btn_c {
+  text-align: center;
+}
+
+.system_btn_hover .system_btn_t, .system_btn_hover .system_btn_c {
+  background: #E3EAEF;
+}
+
+.system_btn_hover .system_btn_b { 
+  background: #F2E9BA;
+}
+
+a.system_link {
+  display: block;
+  text-align: center;
+  padding: 4px;
+  background: #F2E9BA;
+  visibility: hidden;
+  color: #2B587A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.system_link:hover {
+  text-decoration: underline;
+}
+
+.system_btn_hover a.system_link {
+  visibility: visible;
+}
+
+#content {
+  padding:0;
+}
+
+.post {
+ border-bottom: solid 1px #D8DFEA;
+ padding: 9px 12px 10px 17px; }
+.post .info {
+ float: left;
+ font-size: 9px;
+ padding-top: 3px;
+ width: 62px; }
+
+.post .info img { margin-bottom: 3px }
+.post .info .postIndex { color: gray }
+.post .info .postIndex a { color: gray }
+.post .info .postIndex a:hover { color: #3b5998; }
+
+.post .postBody {
+ float: left; margin-right:10px;
+ padding-top: 3px;
+ width: 420px;}
+
+.post .postHeader {
+ background: #f7f7f7;
+ border-bottom: 1px solid #d8dfea;
+ border-top: 1px solid #3b5998;
+ color: #222;
+ font-size: 11px;
+ padding: 2px 4px; }
+
+.post .postHeader .postAuthor {
+ color: black;
+ font-size: 11px; }
+.post .postHeader .postAuthor a {
+ font-weight: bold; }
+.post .postHeader .timestamp {
+ color: #666;
+ display: block;
+ padding-top: 1px;
+ font-size: 9px; }
+
+.post .postMessage {
+  line-height: 14px;
+  padding: 10px 40px 4px 4px;
+  word-wrap: break-word; }
+
+.post .postMessage br {
+  border-width: 0;
+  margin: 0px;
+  padding: 0px; 
+}
+
+#getVotesProgress {
+ float: right; 
+ position: relative; 
+ top: 4px;
+}
+
+.paymentsLabel {
+  float: left; 
+  line-height: 100%; 
+  width: 250px; 
+  color: #666; 
+  padding: 4px 10px 0px 0px; 
+  text-align: right;
+}
+
+#votes_box_details .listing{
+  padding-left: 25px;
+}
+
+.terminalHintWrap {
+  float:left;
+  margin-right:9px;
+  width:190px;
+}
+
+.terminalHintImg {
+  margin:5px 5px 1px 5px;
+  cursor:pointer;
+  width:180px;
+}
+
+.internetItem {
+  float:left;
+  margin-top:10px;
+}
+
+.internetButtons {
+  padding-left: 230px;
+}
+
+.internetButtons .nNav {
+  padding:10px 0px 0px 0px; 
+  height:25px;
+}
+
+.cardsAccept {
+  padding-left: 230px;
+}
+
+.cardsButtons {
+  clear:both; 
+  padding: 6px 0 0 230px;
+  height:25px;
+}
+
+.wireLabel {
+  padding: 0 5px 2px 0; 
+  width: 155px; 
+  color: #666; 
+  text-align: right;
+}
+
+#inn{
+  width: 163px;
+  margin-right: 10px;
+}
+
+#input_votes {
+  width: 90px; 
+  margin-right: 28px;
+}
+
+.wireBottom{
+  padding: 10px 15px 10px 165px;
+}
+
+/* Votes Transfer */
+
+.votes_transfer {
+  padding: 20px 15px 10px; 
+  line-height: 150%;
+}
+
+.votes_transfer .error{
+  margin: 0 0 10px;
+}
+
+.votes_transfer .label {
+  font-size: 11px;
+  color: #666;
+  text-align: right;
+  vertical-align: top;
+  padding-right: 12px;
+  padding-top:3px;
+}
+
+.votes_transfer .input .small {
+  color: #666;
+  font-size: 10px;
+  display: block;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.votes_transfer #transfer_to_not_found {
+  display: none;
+  margin-top: 4px;
+}
+
+.votes_transfer .input, .votes_transfer .input input, .votes_transfer .input textarea {
+  width: 236px;
+}
+
+.votes_transfer #formButtons li {
+  margin-left: 0;
+}
+
+.votes_transfer #recipientPhoto {
+  padding-left: 20px;
+  vertical-align: top;
+}
+
+.votes_transfer #payments_transfer_message {
+  display: none;
+}
+
+.votes_transfer #transfer_description {
+  margin-bottom: 16px;
+}
+
+.votes_transfer .title {
+  border-bottom: 1px solid #DAE1E8;
+  color: #45688E;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.votes_transfer .msg {
+  margin: 0px 0px 10px;
+  font-weight: bold;
+}
+
+.votes_transfer .msg#need_mobile_act {
+  margin:0;
+}
+
+.sms_cost {
+  padding-top: 3px;
+  color: #777777;
+}
+
+.no_info_payments {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 50px 10px;
+  color: gray;
+  background: #fff;
+  border: solid 1px #ddd;
+}

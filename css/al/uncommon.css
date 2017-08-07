@@ -1,0 +1,131 @@
+#uncommon_css {
+  display: none;
+}
+
+.message_page {
+  padding: 50px;
+}
+.message_page .title {
+  background: #DAE2E8;
+  color: #45688E;
+  border-top: 1px solid #B1BDD6;
+  font-weight: bold;
+  padding: 3px 11px;
+}
+.message_page .body {
+  background: #F7F7F7;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #DAE2E8;
+  padding: 15px 55px;
+}
+.message_page .button_blue {
+  display: block;
+  margin: 15px auto 0px;
+  width: 100px;
+}
+.message_page .button_blue button {
+  width: 100%;
+}
+
+.top_info_bar {
+  border-bottom: 1px solid #d7cf9e;
+  background-color: #fff8cc
+}
+.top_info_bar .info {
+  padding: 8px;
+  text-align: center;
+}
+.top_info_bar .info .text {
+  width: 740px;
+  margin: 0px auto;
+}
+.top_info_bar .hide_button {
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+  margin: 6px 10px 0px;
+  background: url(../../images/close.gif) no-repeat;
+  height: 19px;
+  width: 15px;
+}
+.confirm_mail .info div, .top_info_bar .info div {
+  padding-top: 5px;
+}
+.confirm_mail .info div.text, .top_info_bar .info div.text {
+  padding-top: 0px;
+}
+
+#change_mail_box {
+  padding: 10px 0px 0px;
+}
+#change_mail_box .clear_fix {
+  padding-bottom: 10px;
+}
+#change_mail_box .label {
+  color: #777;
+  padding: 4px 10px 0px;
+  text-align: right;
+  width: 120px;
+}
+#change_mail_box .labeled {
+  width: 210px;
+}
+#change_mail_box .error {
+  display: none;
+}
+#change_mail_box .labeled .text {
+  width: 202px;
+  margin: 0px;
+}
+#change_mail_box .msg {
+  margin-bottom: 10px;
+}
+
+#welcome_translator {
+  margin: 15px 0 5px;
+}
+#welcome_translator .cell {
+  vertical-align: top;
+}
+#welcome_translator .text {
+  padding: 4px 5px 10px;
+}
+#welcome_translator .label.text {
+  color: #777;
+  padding: 4px 10px 10px;
+}
+#welcome_translator textarea {
+  width: 313px;
+  height: 100px;
+}
+
+#phone_validation_box .msg {
+  display: none;
+  margin-bottom: 10px;
+}
+#phone_validation_box .clear_fix {
+  padding: 10px 0px;
+}
+#phone_validation_box .label {
+  padding: 4px 10px 0px;
+  color: #777;
+  width: 150px;
+}
+#phone_validation_box .labeled {
+  width: 200px;
+}
+#phone_validation_box .labeled input {
+  width: 150px;
+}
+#phone_validation_box .labeled small {
+  color: #777;
+}
+#phone_validation_box .info {
+  padding-top: 10px;
+}
+#phone_validation_box .info a {
+  font-weight: bold;
+}
+#phone_validation_box .info div, #phone_validation_complaint {
+  display: none;
+}

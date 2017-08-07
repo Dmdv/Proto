@@ -1,0 +1,336 @@
+#wall_css {
+  display: none;
+}
+
+.big_wall {
+  background: #FFF;
+  padding: 5px 15px 15px;
+}
+.big_wall .wall_module .image {
+  width: 65px;
+}
+.big_wall .wall_module .info {
+  width: 530px;
+}
+.big_wall .wall_module .audio .info {
+  padding: 2px;
+  width: 100%;
+}
+.big_wall .wall_module .reply {
+  padding: 10px 0px 11px;
+}
+.big_wall .wall_module .post {
+  border-top: 0px;
+  border-bottom: 1px solid #DAE1E8;
+}
+.big_wall .wall_module .post:last-child {
+  border-bottom: 0px;
+}
+.big_wall .wall_module .text {
+  width: 500px;
+}
+.big_wall .wall_post_text, .big_wall .wall_reply_text {
+  line-height: 160%;
+}
+.big_wall .wall_module .reply_image {
+  width: 50px;
+  height: 50px;
+}
+.big_wall .wall_module .reply_image img {
+  width: 50px;
+}
+.big_wall .wall_module .reply .image {
+  padding: 0px 1px;
+  width: 61px;
+}
+.big_wall .wall_module .reply .info, .big_wall .wall_module .reply_text {
+  width: 469px;
+}
+.big_wall .wall_module .info_footer {
+  width: 469px;
+}
+.big_wall .wall_module .reply_box textarea {
+  width: 510px;
+}
+.big_wall_post .wall_module #submit_post_box {
+  padding: 15px;
+  border-top: 0px;
+  border-bottom: 1px solid #DAE1E8;
+}
+.big_wall_post .wall_module #submit_post_box textarea {
+  width: 589px;
+  height: 50px;
+}
+.big_wall_post .wall_module #submit_post {
+  display: block;
+}
+.big_wall_post .wall_module .poll_preview .content {
+  width: 360px;
+}
+.big_wall_post .wall_module #post_note_name {
+  width: 589px;
+}
+.big_wall .wall_module .like_wrap, .big_wall .wall_module .reply_link_wrap,
+.big_wall .wall_module .reply_link_wrap small, .big_wall .wall_module .info_footer {
+  font-size: 11px;
+}
+
+.big_wall .wall_module #page_wall_posts .post, .big_wall .wall_module #page_wall_posts .online {
+  display: block;
+}
+
+.big_wall .group_share .info, .big_wall .event_share .info {
+  width: 390px;
+}
+
+.full_wall_tabs {
+  background: #FFF;
+  padding-top: 11px;
+}
+
+#full_wall_progress {
+  margin-top: 3px;
+}
+#wall_top_progress {
+  margin-top: 3px;
+}
+#wall_bottom_progress {
+  margin-top: 4px;
+}
+
+#fw_summary_wrap {
+  padding: 13px 15px 0px;
+}
+
+.fw_like_wrap {
+  margin: 0px 1px;
+  color: #2F5879;
+  cursor: pointer;
+}
+.fw_like_icon {
+  margin: 3px 3px 0px;
+  background: url(../../images/icons/like.gif) no-repeat 1px 0px;
+  height: 10px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  width: 11px;
+}
+div.fw_my_like {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+#fw_post_wrap {
+  padding: 0px 0px 15px;
+}
+#fw_post {
+  padding: 15px 15px 0px;
+}
+#fw_post.fw_note {
+  padding: 0px;
+}
+#fw_one_replies_wrap {
+  padding: 8px 27px 0px 80px;
+}
+#fw_one_replies_wrap.fwn_replies {
+  padding: 8px 20px 0px;
+}
+.fw_post_table {
+  width: 100%;
+}
+.fw_post_thumb_td {
+  vertical-align: top;
+}
+.fw_post_thumb {
+  display: block;
+  width: 65px;
+  height: 50px;
+  overflow: hidden;
+}
+.fw_post_info {
+  vertical-align: top;
+  width: 100%;
+}
+.fw_post_author {
+  font-weight: bold;
+  color: #45688E;
+}
+#fw_post .wall_post_text {
+  line-height: 160%;
+  width: 482px;
+  overflow: hidden;
+}
+#fw_post .media_desc, #fw_post .post_media {
+  padding-bottom: 2px;
+  line-height: 100%;
+}
+#fw_post .fw_post_info .explain {
+  color: #777;
+}
+.fw_post_bottom {
+  padding-top: 4px;
+  padding-bottom: 3px;
+  height: 13px;
+  color: #999;
+}
+.fwn_bottom {
+  padding: 4px 20px 3px;
+  height: 13px;
+  color: #999;
+}
+#fwp_summary_wrap {
+  border: 0px;
+  padding: 4px 0px 0px;
+}
+.fw_reply {
+  border-top: 1px solid #DAE1E8;
+  padding: 10px 0px 11px;
+}
+.fw_reply:last-child {
+  padding-bottom: 11px;
+}
+.fw_reply_tt .header {
+  display: none;
+}
+.fw_reply_tt div.fw_reply {
+  padding: 0px;
+  border: 0px;
+}
+.fw_reply_table {
+  width: 100%;
+}
+.fw_reply_thumb_td {
+  vertical-align: top;
+  padding: 0px 1px;
+}
+.fw_reply_thumb {
+  display: block;
+  width: 61px;
+  height: 50px;
+  overflow: hidden;
+}
+.fw_reply_info {
+  vertical-align: top;
+  width: 100%;
+}
+.fw_reply_author {
+  font-weight: bold;
+  color: #45688E;
+}
+.fw_reply_text {
+  padding: 4px 0px;
+  line-height: 160%;
+  width: 458px;
+  overflow: hidden;
+}
+.fwn_replies .fw_reply_text {
+  width: 520px;
+}
+.fw_reply_tt div.fw_reply_text {
+  width: 295px;
+}
+.fw_reply_bottom {
+  height: 13px;
+  color: #999;
+}
+.fwn_header {
+  background: #F7F7F7;
+  border-bottom: solid 1px #DAE1E8;
+  line-height: 185%;
+  padding: 9px 20px 7px;
+}
+.fwn_title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #45688E;
+}
+.fwn_author {
+  padding: 0px 1px;
+}
+.fwn_post {
+  width: 587px;
+  overflow: hidden;
+  padding: 15px 20px 0px;
+  word-wrap: break-word;
+  line-height: 160%;
+}
+
+#fwr_wrap {
+  position: relative;
+}
+#fwr_form {
+  padding: 6px 27px 10px 80px;
+  background: #FFF;
+  border-top: 1px solid #FFF;
+  bottom: 0px;
+  z-index: 20;
+  -webkit-transition: background 400ms linear, border 400ms linear;
+  -moz-transition: background 400ms linear, border 400ms linear;
+  -o-transition: background 400ms linear, border 400ms linear;
+  transition: background 400ms linear, border 400ms linear;
+}
+.fwr_note #fwr_form {
+  padding: 6px 20px 10px;
+}
+#fwr_form.fixed {
+  background: #FAFAFA;
+  border-top: 1px solid #EEE;
+}
+.fwr_no_to {
+  background: url(../../images/hide_to.gif) no-repeat;
+  width: 0px;
+  height: 14px;
+  padding-left: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-transition: opacity 200ms linear;
+  -moz-transition: opacity 200ms linear;
+  -o-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+}
+.fwr_no_to:hover {
+  opacity: 1;
+  filter: none;
+}
+#fwr_text {
+  vertical-align: top;
+  width: 510px;
+  height: 42px;
+}
+.fwr_note #fwr_text {
+  width: 579px;
+  height: 62px;
+}
+#fwr_warn {
+  padding-top: 10px;
+  color: #777;
+  display: none;
+}
+.fwr_buttons {
+  height: 25px;
+  padding-top: 10px;
+}
+#fwr_cancel {
+  display: none;
+}
+#fwr_to_title {
+  padding: 6px 10px 0px;
+}
+.fwr_header {
+  font-weight: bold;
+  color: #45688E;
+  padding-bottom: 6px;
+}
+
+.fw_deleted {
+  padding: 19px 65px 20px;
+  color: #777;
+}
+.fw_reply_prg {
+  margin: 0px 10px;
+}
+.fw_date_lnk {
+  color: #999;
+}

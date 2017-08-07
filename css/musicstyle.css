@@ -1,0 +1,180 @@
+.button, .button:hover {
+	text-decoration:none;
+}
+.play {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	background:url('/images/audiosource_new.gif') 0px 0px no-repeat;
+}
+.downloads {
+	width:20px;
+	height:20px;
+	display:block;
+	margin:0;
+	background:url('/images/audiosource_new.gif') 0px -40px no-repeat;
+}
+.downloads:hover {
+	background:url('/images/audiosource_new.gif') -20px -40px no-repeat;
+}
+
+
+
+.add {
+	width:20px;
+	height:20px;
+	display:block;
+	margin:0;
+	background:url('http://socialzet.com/images/icons/plus1.gif') no-repeat;
+}
+.add:hover {
+	background:url('http://socialzet.com/images/icons/plus2.gif') no-repeat;
+}
+
+.delete {
+	width:20px;
+	height:20px;
+	display:block;
+	margin:0;
+	background:url('http://socialzet.com/images/icons/action_delete1.gif') no-repeat;
+}
+.delete:hover {
+	background:url('http://socialzet.com/images/icons/action_delete2.gif') no-repeat;
+}
+
+.pause {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	background:url('/images/audiosource_new.gif') -20px 0px no-repeat;
+}
+.play:hover {
+	background:url('/images/audiosource_new.gif') 0px -20px no-repeat;
+}
+.pause:hover {
+	background:url('/images/audiosource_new.gif') -20px -20px no-repeat;
+}
+.time {
+	text-align:right;
+	color:#b7c9e2;
+}
+.spanel {
+	border-top:1px solid #f0f0e7;
+}
+.spanel td {
+	padding-top:8px;
+	border-top:1px solid #f0f0e7;
+}
+.ppanel td {
+	position:relative;
+	padding:0 0 2px 0; margin:0;
+	height:9px;
+	
+}
+.ppanel td div.pb {
+   position: absolute;
+   border-top-width: 1px;
+   border-top-style: dashed;
+   border-top-color: #c5e3b2;
+   width: 342px;
+   height: 5px;
+   margin-top: 5px;
+   z-index: -100;
+   float:left;
+}
+.ppanel td div.vb {
+	width:55px; height:7px;
+	margin:1px 0 0 0;
+	display:block;
+	position:relative;
+	float:right;
+
+}
+.profile_ppanel td {
+	position:relative;
+	padding:0 0 2px 0; margin:0;
+	height:9px;
+	
+}
+.profile_ppanel td div.pb {
+   position: absolute;
+   border-top-width: 1px;
+   width: 342px;
+   height: 5px;
+   margin-top: 5px;
+   float:left;
+   
+}
+.profile_ppanel td div.vb {
+	width:55px; height:7px;
+	margin:1px 0 0 0;
+	display:block;
+	position:relative;
+	float:right;
+
+}
+.title {
+	padding-top:6px;
+}
+.infotitle {
+	border-bottom:1px dotted #09F;
+	cursor:help;
+}
+.progressbar {
+	width:235px; height:9px;
+	margin:0; padding:0;
+	display:block;
+	position:relative;
+	float:left;
+	background:#c5e3fa url('/images/audiosource_new.gif') 0px -80px repeat-x;
+}
+.progressbar div {
+	width:0%; height:9px;
+	margin:0; padding:0;
+	display:block;
+	position:relative;
+	background:#54b859 url('/images/audiosource_new.gif') 0px -89px repeat-x;
+	cursor:pointer;
+}
+/**.progressbar b {
+	width:9px; height:9px;		display:block;
+	position:relative;
+	left:0%; 
+	margin:-8px 0 0 0;
+	background:#0066bb url('/images/audiosource_new.gif') 0px -60px no-repeat;
+	cursor:pointer;
+}
+**/
+.progressbar b
+{display: block; position: relative; width: 15px; height: 6px; left: 0px; border: 0; padding: 0; margin: -4px 0 0 0; background-color: #54b859; -webkit-user-select: none; cursor: pointer; *position: absolute; *top: 7px;}
+.volumebar {
+	width:55px; height:7px;
+	margin:1px 0 0 0;
+	display:block;
+	position:relative;
+	float:right;
+	background:#c5e3fa url('/images/audiosource_new.gif') 0px -81px repeat-x;
+}
+.volumebar div {
+	width:0%; height:7px;
+	display:block;
+	position:relative;
+	background:#c5e3fa url('/images/audiosource_new.gif') 0px -81px repeat-x;
+	cursor:pointer;
+}
+.volumebar b
+{border: 0; padding: 0; margin: -3px 0 0 0; display: block; width: 8px; height: 6px; position: relative; background-color: #54b859; cursor: pointer; -webkit-user-select: none; *position: absolute; *top: 7px; *overflow: hidden}
+
+/**
+.volumebar b {
+	width:7px; height:7px;
+	display:block;
+	position:relative;
+	left:0%;
+	margin:-6px 0 0 0;
+	background:#0066bb url('/images/audiosource_new.gif') -20px -60px no-repeat;
+	cursor:pointer;
+}
+**/

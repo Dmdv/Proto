@@ -1,0 +1,1 @@
+<div id="profile_main_actions"><div id="friend_status"><div onmouseover="return Profile.friendTooltip()" class="friend_status_info" id="profile_am_subscribed">Вы отправили заявку</div></div></div>

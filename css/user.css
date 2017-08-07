@@ -1,0 +1,58 @@
+body {background: url(../../i052.radikal.ru/0901/b8/cf8c26d93870.jpg) fixed top
+
+!important;}
+DIV, Select, TD, TEXTAREA, SPAN.ncc,Input, B,#endQuote, #startQuote, .actionspro,
+
+LI.written, TH, UL.pageList, .actionspro, ul.topNav li, #userProfile, #profileActions, .nc
+
+*,.groupslist table,#td.info {background: white none !important}
+DIV, Select, TD, TEXTAREA, SPAN.ncc, Input, A, #quickquery, B,#endQuote, #startQuote,
+
+.actionspro, LI.written, TH, UL.pageList, .actionspro, ul.topNav li, #userProfile,
+
+#profileActions, .nc *,.groupslist table,#td.info {background: transparent !important}
+#rateLeft, .voting_result_fg {background: silver !important}
+#rateRight, .voting_result_bg {background:transparent !important}
+option {background: transparent none !important}
+a, h1, h2, h4, .note strong, #dialog h4 {color: red !important}
+.header, #header, #content {background: transparent !important}
+a:hover, #nav li a:hover {color: grey !important;}
+a,#myLink, td, small, caption, span, p, b, LI, Div, input, select, option, dd, label,
+
+textarea, h4 {color: #FFFFFF !important; font-weight: bold !important}
+#quickquery, div.actions, #myLink, #content, TextArea,Div.playline, TD, Input, select, TH,
+
+H4, H2, #photoactions a, #photoactions .action_link, #photoactions .non_action, .bNav li a,
+
+ul.buttonRow a, .header, .flexHeader, #wrapH
+{border-color: red !important}
+#wrapH {border-bottom: 3px solid red !important}
+#nav li a, .nc *, LI, p, B, #profileActions a, .pageList a, div
+{border-color:transparent !important;}
+#pageHeader {background-image: url(../../pic.ipicture.ru/uploads/081116/vrHz2ngc67.jpg)
+
+!important;}
+.upArrow a, .dArrow a {
+background-color: white !important;
+border:1px solid #f8f8ff !important;}
+#banner1, #banner2 {display: none !important}#pageHeader { position: fixed !important; z-index: 10000 !important; height:43px !important;
+
+}
+
+#sideBar { position: fixed !important; margin: 47px 3px 0px 7px !important; width:131px
+
+!important; }
+#sideBar #nav { margin: 0px !important; }
+#sideBar #nav a { overflow: hidden !important; white-space: nowrap !important; }
+
+#pageBody { margin:43px 7px 5px 5px !important; width:638px !important; }
+
+#groups .flexBox { visibility: hidden !important; }
+#groups .flexBox a { visibility: visible !important; display: block !important; overflow:
+
+hidden !important; margin-bottom: -5px !important; margin-left: -7px !important;
+
+padding-left: 5px !important; border: 1px dashed #c3c3c3 !important; }
+#groups .flexBox a:hover { border: 0px !important; border-left: 2px solid #000000
+
+!important; padding: 1px 1px 1px 4px !important; text-decoration: none !important; }

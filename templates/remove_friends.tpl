@@ -1,0 +1,1 @@
+﻿4658<!><!>0<!>4250<!>0<!><div id="friend_status"><div class="profile_action_btn"><div class="button_wide button_blue"><button onclick="return Profile.toggleFriend(this, 'bac63b0431660d1191', 1, event)">Добавить {$owner->user_info.user_fname} в друзья</button></div></div></div></div>

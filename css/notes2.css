@@ -1,0 +1,246 @@
+#content {
+        padding: 0px;
+}
+
+#notesBar {
+ background: #f7f7f7 url(../images/note_1.gif) repeat-y 0px 0px;
+}
+
+.mainPanel {
+  overflow: hidden;
+  padding: 10px 0px;
+  position: relative;
+  width: 451px;
+ }
+
+.column {
+  float: left; }
+
+.full_text {}
+
+
+/*  BASE NOTE STYLES  */
+
+.note {
+  padding: 10px 10px 35px 15px; }
+
+.note .profile_thumb {
+  float: left;
+  padding: 0px 10px 0px 0px;
+  width: 50px; }
+
+.note .note_body {
+  float: left;
+  width: 350px; }
+
+.note .note_header {
+  background: #f7f7f7;
+  border-bottom: solid 1px #DAE1E8;
+  border-top: solid 1px #45688E;
+  padding: 4px 6px 5px 6px; }
+
+.note .note_title_share {}
+
+.note .note_title {
+  color: #45688E;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15px;
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 1px 0px;
+  width: 280px; }
+
+.note .share_and_hide {
+  float: right;
+}
+
+.note .byline {
+  clear: both;
+  color: #333;
+  padding: 0px 0px 0px 0px; }
+
+.note .byline span {
+  color: #666; }
+
+.note_content {
+  clear: both;
+  margin-left: 6px;
+  padding: 10px 0px 0px 0px;
+  word-wrap: break-word; }
+
+.note .note_footer {
+  border-top: 1px solid #ddd;
+  clear: both;
+  font-size: 9px;
+  margin-top: 10px;
+  padding: 0px 2px 0px 6px; }
+
+.note .note_footer_left {
+  color: #666;
+  float: left;
+  width: 170px; }
+
+.note .note_footer_right {
+  color: #333;
+  float: right;
+  text-align: right;
+  width: 170px; }
+
+.even {
+  height: 15px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+tr.even td, tr.odd td {
+  height: 25px; padding-left:3px;
+}
+
+tr.even td a, tr.odd td a {
+  font-weight: bold;
+}
+
+.odd {
+  height: 15px;
+  vertical-align: middle;
+  background-color: #eee;
+}
+
+.sidePanel {
+  padding: 0px 0px 10px 0px;
+  width: 175px; }
+
+.sidePanel h2 {
+  font-size: 11px; }
+
+#newNote {
+  border-bottom: 1px solid #fff;
+  border-top: 0px;
+}
+
+#newNote .add {
+  padding: 12px 0px 11px 0px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.activePad {
+  background-color: #EAEAEA;
+  padding:4px 4px 4px 12px;
+  font-weight: bold;
+  width: 160px;
+}
+
+.activePad a, .activePad a:hover{
+ color: #000; text-decoration: none;
+}
+
+.inactivePad {
+  padding:4px 4px 4px 12px;
+  width: 160px;
+}
+
+.noNotes {
+  color: #666;
+  font-size: 12px;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.notesEdit {
+  background: #f7f7f7 url(../images/note_2.gif) repeat-y top left;
+}
+
+.notesEdit #error {
+  margin: 0px 0px 10px 0px; }
+
+.notesEdit .column {
+  float: left; }
+
+.notesEdit .mainPanel {
+  padding: 10px 20px 20px 15px;
+  width: 416px;}
+
+.notesEdit .mainPanel .clearFix label {
+  color: #666;
+  display: block;
+  padding: 6px 0px 3px 1px;
+}
+
+.notesEdit #fieldTitle .inputText {
+  font-size: 13px;
+  margin: 0px;
+  width: 408px; }
+
+.notesEdit #fieldBody textarea {
+  height: 220px;
+  margin: 0px;
+  width: 408px; }
+
+.wide_note {
+  padding: 10px 10px 15px 20px; }
+
+.wide_note .note_body {
+  width: 400px; }
+
+.wide_note .note_title {
+  width: 325px; }
+
+.wide_note .note_footer {
+  font-size: 11px; }
+
+.wide_note .note_footer_left {
+  width: 175px; }
+
+.wide_note .note_footer_right {
+ color: gray;
+ width: 215px;
+}
+.comments_count {
+ padding: 5px 0px 0px 0px;
+}
+
+#blogcomment {
+  float: left;
+  width: 400px;
+  position: relative;}
+
+#blogcomment .actions a small {
+  color: #45668E; }
+
+#blogcomment .actions a:hover {
+  text-decoration: underline; }
+
+#blogaddcomment {
+  float: left;
+  clear: left;
+  padding-top: 0px;
+  padding-left:55px;
+  width:20em;
+  position: relative}
+
+#blogaddcomment h4 {
+  margin-top: 12px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border: none; }
+
+#postingStatus {
+  background-color: #fff;
+}
+
+#comment {
+  border-top:1px solid #fff;
+}
+#commentfield {
+  margin: 0px 0px 0px 1px;
+}
+.notbold {
+ font-weight:normal;
+}
+
+#addcomment_inner {
+ background-color:#fff;
+}

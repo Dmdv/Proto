@@ -1,0 +1,11 @@
+.floatleft {float:left;}
+.ddheader {width:60px; color:#336699; padding-top:1px; padding-bottom:1px; padding-left:3px; padding-right:3px;  margin-top:0px; cursor:pointer;}
+.ddheader:hover {background:none;}
+.ddcontent {position:absolute; overflow:hidden; width:141px; display:none; background:#fff; z-index:139;}
+.ddinner {width:139px; border:1px solid #9ac1c9; border-right:1px solid #9ac1c9;}
+.ddinner ul {display:block; list-style:none; margin:0; padding:0; background:#eaf0f2;}
+.ddinner li {margin:0; padding:5px;}
+.ddinner li:hover {background:#d9e1e4;}
+.underline {border-bottom:1px solid #b9d6dc; color:#336699; cursor:pointer; }
+.underline3 {color:#336699; cursor:pointer;}
+.underline2 {border-bottom:1px solid #b9d6dc; cursor:default; background:#FFFFFF;}

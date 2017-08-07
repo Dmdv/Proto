@@ -1,0 +1,187 @@
+
+/** SEMODS MULTISELECT **/
+
+.multiSelect {
+  background:#FFFFFF url('../images/apps_dropdown.gif') no-repeat scroll right center;
+  border:1px solid #BBBBBB;
+  display:inline;
+  padding:2px 20px 2px 4px;
+  width:200px;
+  
+  Xoverflow: hidden;
+}
+
+.multiSelect.hover {
+  background:transparent url('../images/apps_dropdown_hover.gif') no-repeat scroll right center;
+}
+
+.multiSelect.active, .multiSelect.focus {
+  border:1px inset #000000;
+}
+
+.multiSelect.active {
+  background:transparent url('../images/apps_dropdown_active.gif') no-repeat scroll right center;
+}
+
+.multiSelectOptions {
+  background:#FFFFFF none repeat scroll 0%;
+  border:1px solid #B2B2B2;
+  margin-top:-1px;
+  max-height:150px;
+  overflow:auto;
+  Xwidth:206px;
+  width:224px;
+
+  height: 150px;
+}
+
+.multiSelectOptions label {
+  display:block;
+  padding:2px 5px;
+}
+
+.multiSelectOptions label.checked {
+  background:#E6E6E6 none repeat scroll 0%;
+}
+
+.multiSelectOptions label.selectAll {
+  border-bottom:1px dotted #CCCCCC;
+}
+
+.multiSelectOptions label.hover {
+  background:#CFCFCF none repeat scroll 0%;
+}
+
+iframe.layerfix {
+  display:none;/*sorry for IE5*/
+  display/**/:block;/*sorry for IE5*/
+  position:absolute;/*must have*/
+  top:0;/*must have*/
+  left:0;/*must have*/
+  z-index:1;/*must have*/
+  filter:mask();/*must have*/
+  Xwidth:3000px;/*must have for any big value*/
+  Xheight:3000px/*must have for any big value*/;
+  width: 1px;
+  height: 1px;
+}
+
+
+
+/** SEMODS DIALOG **/
+
+
+
+.semods_dialog {
+  position: absolute;
+  z-index: 100;
+  background:#FFFFFF none repeat scroll 0%;
+  border:4px solid #525252;
+  color: #000;
+  text-align: left;
+  
+  padding: 20px;
+}
+
+.semods_dialog #semods_dlgtitle {
+  border-bottom:2px solid #CDCDCD;
+  font-size: 20px;
+  color: #777
+}
+
+.semods_dialog #semods_dlgtext {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom:2px solid #CDCDCD;
+}
+
+.semods_dialog #semods_dlgbuttons {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.semods_dialog #semods_dlgbtnyes {
+  margin-right: 10px;
+}
+
+.semods_dialog #semods_dlgbtnno {
+  margin-right: 10px;
+}
+
+
+
+/** USER CAMPAIGNS **/
+table.campaigns_table {
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+}
+
+td.campaigns_header, td.campaigns_header2, td.campaigns_header1 {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+td.campaigns_header2 {
+	border-left: none;
+	border-right: none;
+}
+td.campaigns_header1 {
+	border-right: none;
+}
+td.campaigns_list {
+	padding: 7px; 
+	border-bottom: 1px solid #DDDDDD;
+}
+tr.campaigns_row1 {
+	background: #F5F5F5;
+}
+tr.campaigns_row2 {
+	background: #FFFFFF;
+}
+td.campaigns_item {
+	padding: 5px;
+    vertical-align: middle;
+    border-bottom:1px solid #DDDDDD;    
+}
+
+div.campaigns_search {
+	padding: 10px;
+	background: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+}
+div.campaigns_stats {
+	margin-top: 7px; 
+	color: #888888;
+}
+div.campaigns_browse_title {
+	font-weight: bold; 
+	background: #EEEEEE; 
+	padding: 5px;
+}
+
+
+/** OTHER **/
+div.campaignsdivbutton {
+  background:#FFFFFF none repeat scroll 0%;
+  border-color:#DDDDDD;
+  border-style:solid;
+  border-width:1px 1px 1px 5px;
+  font-weight:bold;
+  padding:7px 8px 7px 6px;
+  text-align:left;
+  
+  float: right;
+}
+
+div.campaignsdivbutton A {
+  text-decoration: none;
+}
+

@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="vkontakte">
+<html>
+<head>
+<title>Шедкари</title>
+<base href='http://shedkari.ru/'>
+<link rel="stylesheet" href="./templates/styles.css">
+<link rel="stylesheet" href="./templates/css/menu.css">
+<link rel="stylesheet" href="./templates/group.css">
+<link rel="stylesheet" href="./templates/std.css">
+<link rel="stylesheet" href="./templates/rustyle.css" type="text/css">
+<link rel='stylesheet' href='./templates/profile.css' type='text/css'>  
+<link rel='stylesheet' href='./templates/typeahead.css' type='text/css' />
+<link rel='stylesheet' href='./templates/dialog2.css' type='text/css' />
+<link rel='stylesheet' href='./templates/rustylex.css' type='text/css' />
+<link rel='stylesheet' href='./templates/mail2.css' type='text/css' />
+<link rel='stylesheet' href='./templates/box.css' type='text/css' />
+
+<script src='js/simpleajax.js'></script>
+<script src="js/audio.js"></script>
+<script src='js/ajax.js'></script>
+<script src='js/activity.js'></script>
+<script src="js/functions.js?5"></script>
+<script src="js/niftycube.js"></script>
+<script src="js/1.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/player.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<!--[if lte IE 6]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(css/ie.css); /* ]]> */</style><![endif]-->
+<!--[if gte IE 7]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(css/ie7.css); /* ]]> */</style><![endif]-->
+
+<script type="text/javascript" src="./include/js/tips.js"></script>
+<script type="text/javascript" src="./include/js/showhide.js"></script>
+<script type="text/javascript" src="./include/js/suggest.js"></script>
+<script type="text/javascript" src="./include/js/mootools12.js"></script>
+<script type="text/javascript" src="./include/js/smoothbox.js"></script>
+<script type="text/javascript" src="./include/js/status.js"></script>
+<script type="text/javascript" src="./include/js/dropdown.js"></script>
+<link href="/favicon.ico" rel="shortcut icon">
+<script type="text/javascript" language="javascript" src="./include/js/behavior.js"></script>
+<script type="text/javascript" language="javascript" src="./include/js/rating.js"></script>
+<link rel="stylesheet" type="text/css" href="./templates/rating.css" />
+<script SRC="./modules/mp3_search/audio/includes/audio-player.js"></script>
+<script SRC="./include/js/mp3_search.js"></script>
+<link rel="stylesheet" href="./templates/styles_user_mp3_search.css" title="stylesheet" type="text/css" /><link rel="stylesheet" href="./templates/styles_vidfeeder.css" title="stylesheet" type="text/css">  
+
+  
+  
+  
+   <script type="text/javascript" src="./include/js/newsfeed_advanced.js"></script>
+<link rel="stylesheet" href="./templates/styles_newsfeed_advanced.css" title="stylesheet" type="text/css"><link rel="stylesheet" href="./templates/styles_video.css" title="stylesheet" type="text/css">  
+
+
+  
+  
+  
+   
+<link rel="stylesheet" href="./templates/styles_game.css" title="stylesheet" type="text/css">  
+
+<link rel="stylesheet" href="./templates/styles_gifts.css" title="stylesheet" type="text/css"><!--[if lt IE 7]>
+<script defer type="text/javascript" src="./include/js/pngfix.js"></script>
+<![endif]-->
+
+
+<link rel="stylesheet" href="./templates/styles_music.css" title="stylesheet" type="text/css">  
+
+<link rel="stylesheet" href="./templates/styles_poll.css" title="stylesheet" type="text/css">
+
+
+
+<link rel="stylesheet" href="./templates/styles_employment.css" title="stylesheet" type="text/css">  <link rel="stylesheet" href="./templates/styles_education.css" title="stylesheet" type="text/css"><link rel="stylesheet" href="./templates/styles_classified.css" title="stylesheet" type="text/css">  
+<script type="text/javascript" src="./include/fckeditor/fckeditor.js"></script>
+
+<link rel="stylesheet" href="./templates/styles_group.css" title="stylesheet" type="text/css">  
+
+<link rel="stylesheet" href="./templates/styles_event.css" title="stylesheet" type="text/css">  
+
+<script type="text/javascript" src="./include/js/cookies.js"></script>
+
+<link rel="stylesheet" href="./templates/styles_album.css" title="stylesheet" type="text/css">  
+
+<link rel="stylesheet" href="./templates/styles_blog.css" title="stylesheet" type="text/css">  
+<script type="text/javascript" src="./include/fckeditor/fckeditor.js"></script>
+
+ 
+
+
+<style type='text/css'></style>
+<link rel="stylesheet" href="./templates/styles_global.css" title="stylesheet" type="text/css">
+
+
+
+
+</head>
+<body>
+<layer name="lenta" top=0 left=0 >
+<nolayer>
+<div style="position:absolute; top:0; left:0;">
+</nolayer>
+
+<nolayer>
+</div>
+</nolayer>
+</layer>
+
+
+<div id="pageLayout">
+
+
+
+<!-- pageHeader -->
+
+  <div id="pageHeader">
+
+   <h1 id="home"><a href="index.php">ВСети</a></h1>
+ 
+<ul class="topNav">
+ <li style="width:0.2em"></li>
+ <li style="width:5.8em"><a href='help.php'>помощь</a>
+ <li style="width:7.9em"><a href='signup.php'>регистрация</a></li>
+ <li style="width:4.8em"><a href='login.php'>вход</a></li>
+</ul>
+
+  </div>
+
+<!-- End pageHeader -->
+
+
+
+
+<!-- sideBar -->
+
+<div id="sideBar">
+
+      <div id="sideBar">
+
+   
+   <ol id='nav'>
+    <li><a href='index.php'>Главная</a></li>
+    <li><a href='login.php'>Вход</a></li>
+    <li><a href='signup.php'>Регистрация</a></li>
+   </ol>
+
+  <div style="width:124px">
+</div></div>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- End sideBar -->
+<div id="pageBody" class="pageBody">
+
+  <div id="wrapH">
+  <div id="wrapHI">
+   <div id="header">
+    <h1>Произошла ошибка</h1>
+   </div>
+  </div>
+  </div>
+
+  <div id="wrap2">
+  <div id="wrap1">
+   <div id="content">
+
+
+<img src='./images/icons/error48.gif' border='0' class='icon_big'>
+<div class='page_header'>Произошла ошибка</div>
+Вы должны войти в систему, что бы просмотреть эту страницу. <a href='login.php'>Нажмите сюда</a> чтобы войти.
+
+<br><br><br>
+<input type='button' class='button' value='Назад' onClick='history.go(-1)'>
+
+﻿</div></div></div>
+<div class='ad_bottom' style='display: block; visibility: visible;'>
+  
+</div>
+
+</td>
+</tr>
+</table>
+
+<div id="bFooter">
+   
+   <p> 
+   Всего на сайте - <script src="online.php?usr=true"></script><script type="text/javascript">jQuery.noConflict();</script>
+<a class='wallFunc' href="help_contact.php">техподдержка</a>&nbsp;&nbsp;
+<a class='wallFunc' href="help_tos.php">правила</a>&nbsp;&nbsp;
+<a class='wallFunc' href='help.php'>помощь</a>&nbsp;&nbsp;
+</p>
+  </div> 
+
+  <div id="bFooter"> 
+   <p>Шедкари &copy; 2010 <br /><small><a href="/">И.К.</a></small></p>
+   
+  </div>
+ 
+</body>
+</html>

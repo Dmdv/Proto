@@ -1,0 +1,57 @@
+
+/*
+@author Eldar
+@copyright Hire-Experts LLC
+@version Core 1.02
+*/
+
+/* messages */
+.he_message_notice, .he_message_success, .he_message_error {
+	text-align: center;
+	width: 380px;
+	margin: auto;
+	padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.he_message_success {
+	background-color: #E7FFDF;
+	border: 1px solid #9EFF7F;
+}
+.he_message_error {
+	background-color: #FFEFF0;
+	border: 1px solid #FFCFCF;
+}
+.he_message_cont {
+	height: 50px;
+}
+.he_message_cont .t {
+    font-weight: bold;
+    display: block;
+}
+
+/* paging */
+.paging {
+	height: 20px;
+	margin: 6px 0 15px 0;
+}
+.paging span {
+	float: left;
+	margin-right: 6px;
+	padding: 2px 0;
+}
+.paging a:link, .paging a:visited {
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 6px;
+	padding: 2px 7px;
+	text-align: center;
+}
+.paging a:hover, .paging a.active {
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+/* single classes */
+.clr{
+	clear: both;
+}

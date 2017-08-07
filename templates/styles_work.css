@@ -1,0 +1,42 @@
+table.work {
+  border-bottom: 1px solid #DEDEDE;
+  margin-bottom: 10px;
+  width: 100%;
+}
+table.work th {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+}
+table.work td {
+  vertical-align: top;
+  padding: 3px;
+}
+h3.work_header {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.work_search_results {
+  text-align: left;
+  margin: 15px auto;
+  width: 95%;
+}
+
+.work_search_results .user_thumb {
+ text-align: center;
+ font-weight: bold;
+ width: 120px;
+ border-bottom: 1px solid #ddd;
+ padding: 5px;
+}
+.work_search_results .user_work {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+.work_search_results .user_work table.work {
+  border: 0;
+}
